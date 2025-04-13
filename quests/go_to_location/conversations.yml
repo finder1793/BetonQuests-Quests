@@ -1,0 +1,16 @@
+go_to_location_quest:
+  npc: npc_3
+  first:
+    text: "Traveler, can you visit a special location for me?"
+    pointers:
+      accept: "accept_quest"
+      decline: "decline_quest"
+  accept_quest:
+    text: "Thank you! Let me know when you get there."
+    events: "start_quest"
+  decline_quest:
+    text: "I see. Maybe another time."
+    pointers: {}
+  completed:
+    text: "You made it! Here's your reward."
+    events: "reward_player"

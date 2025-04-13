@@ -1,0 +1,5 @@
+start_quest: "notify player &eYou have started the Branching Dialog Quest!"
+reward_player: "give player gold_ingot 5"
+next_stage_1: "notify player &eProceed to Stage 1!"
+next_stage_2: "notify player &eProceed to Stage 2!"
+next_stage_3: "notify player &eProceed to Stage 3!"

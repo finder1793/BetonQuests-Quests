@@ -1,0 +1,22 @@
+multi_stage_quest:
+  npc: npc_4
+  first:
+    text: "Adventurer, can you help me with a series of tasks?"
+    pointers:
+      accept: "accept_quest"
+      decline: "decline_quest"
+  accept_quest:
+    text: "Thank you! Start by bringing me a stone."
+    events: "start_quest"
+  decline_quest:
+    text: "I see. Maybe another time."
+    pointers: {}
+  stage_2:
+    text: "Great! Now, can you defeat the dangerous MythicMob?"
+    events: "next_stage"
+  stage_3:
+    text: "Well done! Finally, visit the marked location."
+    events: "next_stage"
+  completed:
+    text: "You completed all tasks! Here's your reward."
+    events: "reward_player"

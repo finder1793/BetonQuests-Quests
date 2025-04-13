@@ -1,0 +1,16 @@
+kill_mythicmob_quest:
+  npc: npc_2
+  first:
+    text: "Adventurer, can you defeat the dangerous MythicMob for me?"
+    pointers:
+      accept: "accept_quest"
+      decline: "decline_quest"
+  accept_quest:
+    text: "Thank you! Be careful out there."
+    events: "start_quest"
+  decline_quest:
+    text: "I understand. Maybe next time."
+    pointers: {}
+  completed:
+    text: "You did it! Here's your reward."
+    events: "reward_player"

@@ -1,0 +1,2 @@
+start_quest: "notify player &eYou have started the Kill MythicMob Quest!"
+reward_player: "give player diamond 1"

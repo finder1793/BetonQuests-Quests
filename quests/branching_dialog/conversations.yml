@@ -1,0 +1,20 @@
+branching_dialog_quest:
+  npc: npc_5
+  first:
+    text: "Adventurer, I have multiple tasks for you. Which one will you start with?"
+    pointers:
+      stage_1: "choose_stage_1"
+      stage_2: "choose_stage_2"
+      stage_3: "choose_stage_3"
+  choose_stage_1:
+    text: "Great! Start by visiting the marked location."
+    events: "next_stage_1"
+  choose_stage_2:
+    text: "Alright! Defeat the dangerous MythicMob."
+    events: "next_stage_2"
+  choose_stage_3:
+    text: "Understood! Bring me a diamond."
+    events: "next_stage_3"
+  completed:
+    text: "You completed all tasks! Here's your reward."
+    events: "reward_player"

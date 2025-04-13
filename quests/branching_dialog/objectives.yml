@@ -1,0 +1,3 @@
+stage_1: "location world 50 70 -50 5"
+stage_2: "mmobkill mob_name amount:1"
+stage_3: "item diamond 1"

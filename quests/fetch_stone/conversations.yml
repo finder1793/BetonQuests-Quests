@@ -1,0 +1,16 @@
+stone_quest:
+  npc: npc_1
+  first:
+    text: "Hello adventurer! Can you bring me a stone?"
+    pointers:
+      accept: "accept_quest"
+      decline: "decline_quest"
+  accept_quest:
+    text: "Thank you! I'll be waiting."
+    events: "start_quest"
+  decline_quest:
+    text: "Oh, maybe next time."
+    pointers: {}
+  completed:
+    text: "Thank you for the stone! Here's your reward."
+    events: "give_stone_reward"
